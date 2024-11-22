@@ -1,0 +1,229 @@
+
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: auto;
+    height: 0 auto;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(88, 88, 88, 0.1);
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header ul li {
+    margin: 3px;
+    padding: 6px;
+    display: inline;
+}
+
+header ul li a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    cursor: pointer;
+    color: darkcyan;
+    transition: 0.7s;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bg-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);     
+    background-color: darkcyan; 
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.7s ease;
+}
+
+.bg-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.bg-btn:hover {
+    background-color: black;
+}
+
+.hd {
+    text-align: center;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.hd:hover {
+    color: darkcyan;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+  
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card-content h3:hover {
+    color: darkcyan;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.card-content button {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.card-content button:hover {
+    background-color: black;
+    transition: o.7s;
+}
+
+.form-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+footer {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
